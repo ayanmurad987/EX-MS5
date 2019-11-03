@@ -19,15 +19,17 @@ body{
     flex: 1;
     display: flex;
 }
-.header button{
-    background-color: rgb(240, 216, 137);
+.header a{
+    background-color: #9CC3D5FF;
 
     flex: 1;
-    margin: 4%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .body{
-    background-color: blue;
+    background-color: #0063B2FF;
 
     flex: 4;
 }
@@ -35,4 +37,27 @@ body{
 body h1 {
     color: cornsilk;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#viewTab{
+    background-color:#0063B2FF !important;
+}
+
+a {
+    /* color: #0060B6; */
+    text-decoration: none;
+}
+
+a:hover 
+{
+     /* color:#00A0C6;  */
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+a b{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
 }
