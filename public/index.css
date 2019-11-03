@@ -1,0 +1,38 @@
+body{
+    margin: 0px !important ;
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    background-color: red;
+}
+
+.header{
+    background-color: aquamarine;
+
+    flex: 1;
+    display: flex;
+}
+.header button{
+    background-color: rgb(240, 216, 137);
+
+    flex: 1;
+    margin: 4%;
+}
+
+.body{
+    background-color: blue;
+
+    flex: 4;
+}
+
+body h1 {
+    color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+}
